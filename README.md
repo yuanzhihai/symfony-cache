@@ -57,7 +57,7 @@ if (Cache::has('key')) {
 }
 ```
 
-## 删除缓冲
+## 删除
 ```php
 Cache::delete('key');
 ```
