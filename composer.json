@@ -1,0 +1,29 @@
+{
+  "name": "yzh52521/symfony-cache",
+  "description": "description",
+  "keywords": [
+    "webman-cache",
+    "cache",
+    "symfony",
+    "symfony-cache",
+    "webman"
+  ],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "yzh52521",
+      "email": "396751927@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "symfony/cache": "^5.4.5|^6.0",
+    "doctrine/dbal": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "yzh52521\\cache\\": "src"
+    }
+  }
+}
