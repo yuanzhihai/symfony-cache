@@ -1,7 +1,7 @@
 <?php
 declare( strict_types = 1 );
 
-namespace yzh52521\cache;
+namespace yzh52521\SymfonyCache;
 
 /**
  * @method static get( $key,$default = null )

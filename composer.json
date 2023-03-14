@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "yzh52521\\cache\\": "src"
+      "yzh52521\\SymfonyCache\\": "src"
     }
   }
 }
