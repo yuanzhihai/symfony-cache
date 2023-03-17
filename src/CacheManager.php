@@ -147,7 +147,10 @@ class CacheManager
      */
     protected function createRedisDriver(array $config): Psr16Cache
     {
-        return $this->repository( new RedisAdapter( $config['connection'],$config['namespace'],$config['default_lifetime'] ?? 0 ) );
+        $redis = RedisAdapter::createConnection(
+            $config['connection']
+        );
+        return $this->repository( new RedisAdapter( $redis,$config['namespace'],$config['default_lifetime'] ?? 0 ) );
     }
 
     /**
